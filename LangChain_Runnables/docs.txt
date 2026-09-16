@@ -1,0 +1,29 @@
+Artificial Intelligence and Machine Learning
+
+Artificial Intelligence (AI) is a field of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence. These tasks include reasoning, learning, problem solving, understanding natural language, and recognizing patterns.
+
+Machine Learning (ML) is a subset of Artificial Intelligence. Machine Learning allows computers to learn patterns from data and make predictions or decisions without being explicitly programmed for every possible situation.
+
+There are three major types of Machine Learning: supervised learning, unsupervised learning, and reinforcement learning.
+
+Supervised learning uses labeled data. The model learns a relationship between input features and known output labels. Common supervised learning algorithms include Linear Regression, Logistic Regression, Decision Trees, Random Forest, Support Vector Machines, and Neural Networks.
+
+Unsupervised learning works with unlabeled data. The goal is to discover hidden patterns or structures within the data. Clustering and dimensionality reduction are common examples of unsupervised learning techniques. K-Means clustering and Principal Component Analysis (PCA) are widely used methods.
+
+Reinforcement learning is a type of Machine Learning in which an agent learns by interacting with an environment. The agent receives rewards for desirable actions and penalties for undesirable actions. Over time, it learns a strategy that attempts to maximize the total reward.
+
+Deep Learning is a subset of Machine Learning that uses artificial neural networks with multiple layers. Deep Learning has achieved significant results in computer vision, natural language processing, speech recognition, and recommendation systems.
+
+Neural networks consist of interconnected nodes called neurons. A typical neural network contains an input layer, one or more hidden layers, and an output layer. During training, the network adjusts its weights to reduce the difference between predicted and actual outputs.
+
+Natural Language Processing (NLP) is a branch of AI that focuses on enabling computers to understand and process human language. Applications of NLP include sentiment analysis, machine translation, text summarization, question answering, and chatbots.
+
+Generative AI refers to AI systems that can generate new content such as text, images, audio, video, and computer code. Large Language Models (LLMs) are a major technology behind modern text-generation systems.
+
+Retrieval-Augmented Generation (RAG) is a technique that combines information retrieval with text generation. In a RAG system, documents are first converted into embeddings and stored in a vector database. When a user asks a question, relevant documents are retrieved and provided to the language model as context.
+
+Vector databases are designed to store and search numerical vector representations of data. FAISS is a popular library for efficient similarity search over vectors. Other vector databases include Chroma, Pinecone, and Weaviate.
+
+Embeddings are numerical representations of text. Text with similar meanings generally produces vectors that are close to each other in the embedding space. Embeddings are widely used in semantic search, document retrieval, recommendation systems, and RAG applications.
+
+The main goal of a RAG application is to provide a language model with relevant external information so that it can generate answers based on the retrieved context.
