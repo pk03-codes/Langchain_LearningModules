@@ -1,0 +1,81 @@
+ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING
+
+Introduction
+
+Artificial Intelligence (AI) is a branch of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence. These tasks include understanding language, recognizing images, making decisions, solving problems, and learning from experience.
+
+Machine Learning (ML) is a subset of Artificial Intelligence. Instead of explicitly programming a computer with rules for every possible situation, machine learning algorithms learn patterns from data and use those patterns to make predictions or decisions.
+
+Types of Machine Learning
+
+Machine learning is generally divided into three major categories: supervised learning, unsupervised learning, and reinforcement learning.
+
+Supervised Learning
+
+In supervised learning, the model is trained using labeled data. Each training example contains an input and a corresponding expected output. The goal of the model is to learn a mapping between inputs and outputs.
+
+Common supervised learning algorithms include Linear Regression, Logistic Regression, Decision Trees, Random Forest, Support Vector Machines, and Neural Networks.
+
+Supervised learning is commonly used for classification and regression problems. For example, a bank can use a supervised learning model to predict whether a customer is likely to default on a loan.
+
+Unsupervised Learning
+
+In unsupervised learning, the training data does not contain predefined labels. The algorithm attempts to discover hidden patterns or structures within the data.
+
+Clustering is one of the most common unsupervised learning techniques. Algorithms such as K-Means Clustering can group similar data points together.
+
+Unsupervised learning can be useful for customer segmentation, anomaly detection, and exploratory data analysis.
+
+Reinforcement Learning
+
+Reinforcement learning is a type of machine learning in which an agent learns by interacting with an environment. The agent performs actions and receives rewards or penalties based on those actions.
+
+The objective is to learn a strategy, called a policy, that maximizes the total reward over time.
+
+Reinforcement learning has applications in robotics, game playing, autonomous systems, and resource optimization.
+
+Deep Learning
+
+Deep Learning is a specialized area of machine learning that uses artificial neural networks with multiple layers. These networks can automatically learn increasingly complex representations of data.
+
+Convolutional Neural Networks, commonly known as CNNs, are widely used for image processing and computer vision tasks.
+
+Recurrent Neural Networks, or RNNs, are designed to process sequential data. They have been used for applications such as text classification, sentiment analysis, and time-series prediction.
+
+Transformers are another important neural network architecture. They have become widely used in Natural Language Processing because they can efficiently model relationships between different parts of a sequence.
+
+Natural Language Processing
+
+Natural Language Processing (NLP) is a field of AI concerned with enabling computers to understand, process, and generate human language.
+
+Applications of NLP include machine translation, sentiment analysis, text summarization, question answering, speech recognition, and chatbots.
+
+Large Language Models
+
+Large Language Models (LLMs) are neural network models trained on large collections of text data. They can perform tasks such as answering questions, summarizing documents, generating text, translating languages, and writing code.
+
+Examples of modern LLM applications include conversational assistants, document analysis systems, coding assistants, and research tools.
+
+Retrieval-Augmented Generation
+
+Retrieval-Augmented Generation, commonly called RAG, combines information retrieval with language generation.
+
+In a typical RAG system, documents are first divided into smaller chunks. These chunks can be converted into vector representations called embeddings and stored in a vector database.
+
+When a user asks a question, the system converts the question into an embedding and searches for the most relevant document chunks. The retrieved information is then provided to the language model as context.
+
+The basic RAG workflow is:
+
+User Question → Embedding → Similarity Search → Relevant Documents → LLM → Answer
+
+RAG is useful when an application needs to answer questions using private, domain-specific, or frequently changing information.
+
+Conclusion
+
+Artificial Intelligence is a broad field that includes machine learning, deep learning, natural language processing, computer vision, and many other areas.
+
+Machine learning allows systems to learn patterns from data, while deep learning uses multi-layer neural networks to solve complex problems.
+
+Modern AI applications increasingly combine large language models with external tools, databases, and retrieval systems. Retrieval-Augmented Generation is one important approach for connecting language models with external knowledge.
+
+End of Document
